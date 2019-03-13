@@ -38,6 +38,8 @@ void makeYilongGrid(std::string gridPath)
 
 }
 
+// Run BIN2RDS.R to convert binary spatial fractions files (.bin) to RDS format (.rds)
+
 int main(int argc, char** argv)
 {
 	OGRRegisterAll();

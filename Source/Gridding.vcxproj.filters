@@ -66,4 +66,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\BIN2RDS.R">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
 </Project>

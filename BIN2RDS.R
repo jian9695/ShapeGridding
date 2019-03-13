@@ -1,8 +1,8 @@
 rm(list = ls())
 gc()
 
+#Convert binary spatial fractions files (.bin) to RDS format (.rds)
 inputdir <- 'E:/Projects/Gridding/Bin/Samples/shapefile_grid_intersection_fractions/Yilong/'
-
 
 files <- list.files(inputdir,pattern = 'bin', ignore.case = TRUE)
 for(filename in files)
